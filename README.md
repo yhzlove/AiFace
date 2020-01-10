@@ -1,6 +1,8 @@
 # AiFace
 RTSP播放摄像头 websocket推送后台数据  在大屏上展示
 
+## 效果
+<img src="https://github.com/yhzlove/AiFace/blob/master/screenshots/demo01.gif" width=270 height=150/>
 
 ## 播放器
 ```xml
