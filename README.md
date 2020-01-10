@@ -20,7 +20,7 @@ RTSP播放摄像头 websocket推送后台数据  在大屏上展示
 
 代码：
 ```java
-// video-player  Start
+    // video-player  Start
     private void initVideoPlayer() {
         videoPlayer =  (StandardGSYVideoPlayer)findViewById(R.id.video_player);
         // https://blog.csdn.net/mei_jia12/article/details/84573234
@@ -127,8 +127,9 @@ public class JWebSClient extends WebSocketClient {
 
 }
 ```
+
 ```java
-JWebSClient client;
+    JWebSClient client;
     //websocket  start
     //打开socket连接
     private void initSocketClient() {
